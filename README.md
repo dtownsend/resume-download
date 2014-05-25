@@ -15,16 +15,16 @@ resume-download
   <script src="bower_components/platform/platform.js"></script>
   ```
 
-2. Import resume-aboutme
+2. Import resume-download
 
   ```html
-  <link rel="import" href="elements/resume-aboutme.html">
+  <link rel="import" href="elements/resume-download.html">
   ```
   
-3. call resume-aboutme
+3. call resume-download
 
   ```html
-  <resume-aboutme></resume-aboutme>
+  <resume-download></resume-download>
   ```
   
 Attributes
@@ -32,10 +32,10 @@ Attributes
 
 | Attributes       | syntax           | description  |
 | ------------- |:-------------:| -----:|
-| name      | `nm` | name on resume |
-| title      | `title`      | Job title |
-| city | `cy`      |    City were User resides |
-| state | `st`      |    State were User resides |
-| country | `ct`      |    Country were User resides |
-| contact number | `nu`      |  Users contact number |
-| email | `em`      |  Users contact email |
+| download      | `dwn` | location of users resume for people to download |
+| name      | `nm`      | name of the resume file |
+| image | `img`      |    image the user uses to repersent there resume |
+| description| `dis`      | hover over description |
+| width | `w`      | (optional) width setting |
+| height | `h`      |  (optional) height setting|
+

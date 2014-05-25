@@ -1,0 +1,24 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+
+<polymer-element name="resume-download"   attributes= "dwn nm img dis w h">
+  <template>
+    <style>
+    
+    </style>
+
+    <a href="{{dwn}}" download="{{nm}}" title="{{dis}}">
+	<img src="{{img}}" width="{{w}}" height="{{h}}" alt="Resume">
+	</a>
+
+  <template>
+  <script> 
+	Polymer('resume-download',{
+		dwn:"",
+		nm:"",
+	 	img:"",
+	   	dis:"",
+	   	w:"",
+	   	h:"",
+	}); 
+  </script>
+</polymer-element>

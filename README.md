@@ -36,6 +36,6 @@ Attributes
 | name      | `nm`      | name of the resume file |
 | image | `img`      |    image the user uses to repersent there resume |
 | description| `dis`      | hover over description |
-| width | `w`      | (optional) width setting |
-| height | `h`      |  (optional) height setting|
+| width | `w`      | overrides the default width of the image |
+| height | `h`      | overrides the default height of the image |
 
